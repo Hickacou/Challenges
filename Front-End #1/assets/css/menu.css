@@ -1,0 +1,27 @@
+#menu {
+	z-index: 10000;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	font-family: 'Open Sans';
+}
+
+#menu h1 {
+	opacity: 0;
+}
+#menu #button #button-text {
+	font-weight: 400;
+	font-size: 14pt;
+	color: #fff;
+	margin-right: 10px;
+	display: inline;
+}
+#menu #button {
+	position: absolute;
+	right: 13px;
+	top: 20%;
+	transform: translateY(-50%);
+	cursor: pointer;
+	color: #fff;
+}

@@ -1,0 +1,40 @@
+section.img {
+	display: flex;
+	flex-direction: row;
+	height: 50%;
+	background: #2b343d;
+	color: #fff;
+}
+section.img h1,
+section.img p {
+	text-align: left;
+	margin: 10px 0;
+}
+section.img p {
+	font-size: 17pt;
+	color: rgb(241, 241, 241);
+	width: 75%;
+}
+section.img .text-container {
+	padding: 0 170px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: start;
+}
+
+section.img.right {
+	flex-direction: row-reverse;
+}
+
+section.img .section-img {
+	width: 45%;
+	height: 100%;
+	margin: 0;
+}
+.section-img#jinsoul { background: url(../img/jinsoul.jpg) center center / cover;} 
+.section-img#hye { background: url(../img/hye.jpg) center center / cover;} 
+.section-img#lippie { background: url(../img/lippie.jpg) center center / cover;} 
+section#first {background: #2b343d;}
+section#second {background: #273038;}
+section#third {background: #242b33;}

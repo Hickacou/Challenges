@@ -1,0 +1,64 @@
+/* #21b2a6*/
+
+section#vert-chelou {
+	height: 60%;
+	width: 100%;
+	background: #21b2a6;
+	padding: 30px 0;
+}
+
+#vert-chelou h1, 
+#vert-chelou h2 {
+	font-weight: 800;
+	font-size: 24pt;
+	color: #fff;
+	text-align: center;
+	width: 100%;
+}
+#vert-chelou #separation-line {
+	width: 40%;
+	height: 3px;
+	background: #1d9c91;	
+	margin-left: 50%;
+	transform: translateX(-50%);
+}
+
+#vert-chelou p {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 17pt;
+	text-align: center;
+	width: 50%;
+	color: #a5dfd1;
+	margin: 10px auto;
+}
+
+#losange-icons {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-top: 150px;
+	margin-left: 50%;
+	transform: translateX(-50%);
+}
+
+.losange-icon {
+	width: 75px;
+	height: 75px;
+	border: 2px solid #1d9c91;
+	border-radius: 2px;
+	transform: rotate(45deg);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 50px;
+}
+.losange-icon > i {
+	display: block;
+	font-size: 30pt;
+	transform: rotate(-45deg);
+}
+.losange-icon#diamond > i { color: #00ffcc; }
+.losange-icon#heart > i { color: #00f0ff; }
+.losange-icon#code > i { color: #76ddff; }
